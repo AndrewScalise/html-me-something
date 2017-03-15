@@ -2,7 +2,7 @@ body {
 	width: 100%;
 	max-width: 1024px;
 	margin: 0 auto;
-	background-color: #999;
+	background-color: black;
 	font-size: 62.5%;
 }
 
@@ -31,6 +31,7 @@ h1 {
 
 main h2 {
 	padding: 0.625em 0 0.625em 0.625em;
+	color: red;
 }
 
 section {
@@ -53,21 +54,21 @@ nav ul {
 nav ul li {
 	display: inline-block;
 	margin-right: 1em;
-	font-size: 0.75em;
+	font-size: 1em;
 }
 
 p {
 	padding: 1.25em;
 }
 
+section p{
+	font-size: 2em;
+	font-family: monospace;
+}
 figure {
 	margin: 0;
 	padding: 0;
 	text-align: center;
-}
-
-figcaption {
-	font-style: italic;
 }
 
 footer {
